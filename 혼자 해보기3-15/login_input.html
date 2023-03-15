@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <style>
+        body{ background-color: black;}
+        
+        a:link{ color: black; text-decoration: none;} a:visited{ color: black; text-decoration: none;}
+
+        #body1{ background:white; line-height: 90%;}
+
+        header{ text-align: center; 
+                margin-top: 20px;
+                font-size: 55px;
+                color:rgb(0, 0, 0); }
+        
+        #img{ border-radius: 10%; }        
+        #AAA{ color:midnightblue; font-style: U;}
+    </style>
+
+    <style>
+        #body2-div1{ text-align: center; 
+                        margin-top: 100px; }
+
+        .body2-div1-input{ width: 300px; height: 40px; border-radius: 7%; vertical-align: 1000; opacity: 70%; margin: 10px; box-shadow: 2px 1px 2px 2px; border: 1px;}
+        
+        .body2-div2{ text-align: center;}
+        
+        #body2-div1-input-submit{ width: 170px; height: 40px; border-radius: 10%; border: 1px; margin-top: 40px; background-color: black; color: goldenrod; font-size: 20px; font-weight: bold; cursor: pointer;}
+    </style>
+
+    <style>
+        #body3-div1{ text-align: center;}
+
+        .body3-div1-btn{ width: 300px; margin-top: 30px; height: 40px; border-radius: 10%; border: 1px; font-size: 20px; font-weight: bold; cursor: pointer; color: black;}
+        
+        #body3-div2{ font-size: 16px; text-align: center; margin-top: 70px; cursor: pointer; }
+    </style>
+</head>
+
+<body id="body1">
+    <header>
+        <div>
+        <img id="img" src="http://sanews.co.kr/imgdata/sanews_co_kr/201709/2017090539009550.jpg" alt="이미지를 찾을 수 없습니다." width="150px" height="150px">
+        <U><i><b><p id="AAA">Sp+ Travel</p></b></i></U>
+        </div>
+    </header>
+</body>
+
+<body id="body2">
+    <div id="body2-div1">
+        <input class="body2-div1-input" type="text" placeholder="ID"><br>
+        <input class="body2-div1-input" type="password" name="" id="" placeholder="PASSWORD">
+    </div>
+
+    <div class="body2-div2">
+        <a href="login/login_success.html" target="_self">
+        <input id="body2-div1-input-submit" type="button" name="" id="" value="로그인 성공"></a>
+        <a href="login/login_fail.html" target="_self">
+            <input id="body2-div1-input-submit" type="button" name="" id="" value="로그인 실패"></a>
+    </div>
+</body>
+
+<body id="body3">
+    <div id="body3-div1">
+    <a href="https://accounts.google.com/v3/signin/identifier?dsh=S-1895600435%3A1678861626773613&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&hl=ko&ifkv=AWnogHcFyU9UbweYfEG15IAqECtAqeDlZ7NEWzxA6j1e4wtR1LbYG4pw8Fuiapky7FmrqZak-U0ZeA&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_self">
+    <input class="body3-div1-btn" type="button" name="" id="" value="Google 로그인" style="background-color: cornflowerblue;"><br></a>
+
+    <a href="https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com" target="_self">
+    <input class="body3-div1-btn" type="button" name="" id="" value="Naver 로그인" style="background-color: lawngreen;"><br></a>
+
+    <a href="https://accounts.kakao.com/login/?continue=https%3A%2F%2Faccounts.kakao.com%2Fweblogin%2Faccount%2Finfo#login" target="_self">
+    <input class="body3-div1-btn" type="button" name="" id="" value="Kakao 로그인" style="background-color: yellow;"><br></a>
+
+    <a href="login/login_nomember.html" target="_self">
+    <input class="body3-div1-btn" type="button" name="" id="" value="비회원 로그인" style="background-color: gray;"><br></a>
+    </div>
+    
+    <div id="body3-div2">
+        
+      <a href="login/newmember.html"><b><i><strong>회원가입 &nbsp;&nbsp;</a>| <a href="login/ID&PW_find.html" target="_self">&nbsp;&nbsp;ID/비밀번호 찾기</strong></i></b></a>
+    </div>
+</body>
+</html>
